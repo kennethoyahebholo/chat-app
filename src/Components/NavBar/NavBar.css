@@ -1,0 +1,71 @@
+nav{
+ background-color: black;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 10px;
+}
+
+.left_nav_con{
+
+}
+
+.right_nav_con{
+ display: flex;
+ align-items: center;
+ width: 250px;
+ justify-content: space-evenly;
+}
+
+nav .left_nav_con button{
+  background-color: black;
+   border: 2px solid white;
+   color: white;
+   font-weight: 600;
+   padding: 5px 10px;
+   margin: 0px 10px;
+   border-radius: 5px;
+}
+
+nav .right_nav_con button {
+  background-color: black;
+  border: 2px solid white;
+  color: white;
+  font-weight: 600;
+  padding: 5px 10px;
+  margin: 0px 10px;
+  border-radius: 5px;
+}
+
+nav .right_nav_con button:hover {
+ background-color: white;
+ color: black;
+}
+
+.nav-profile-pic{
+ width: 30px!important;
+ height: 30px!important;
+ border-radius: 30px!important;
+}
+
+.nav-hr{
+ border: none;
+ border-top: 1px solid rgb(26, 26, 26);
+}
+
+.add-icon:hover {
+ transition: all 2s;
+ transform: rotate(705deg);
+}
+
+.center {
+ display: flex;
+ width: 400px;
+}
+
+.search-user {
+ border: 2px solid white;
+ padding: 0px 10px;
+ border-radius: 10px;
+ width: 100%;
+}
